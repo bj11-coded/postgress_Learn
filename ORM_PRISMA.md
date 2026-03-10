@@ -110,6 +110,11 @@ npm install @prisma/client
 ```bash
 npx prisma init --datasource-provider postgresql
 ```
+or 
+
+```bash
+npx prisma  init --db --output ../generated/prisma
+```
 
 This creates:
 
